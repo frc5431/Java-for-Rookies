@@ -4,7 +4,7 @@ To really get a grip on programming, you need to get into the "programming minds
 
 First, lets talk about what the computer actually is for us programmers and how it works. No, this is not how a computer works:
 
-![](/assets/matrix)
+[![](https://github.com/frc5431/Java-for-Rookies/raw/master/assets/matrix)](https://github.com/frc5431/Java-for-Rookies/blob/master/assets/matrix)
 
 In layman's terms, computers work with a bunch of small conductive rocks and some electricity. Basically magic.
 
@@ -46,7 +46,7 @@ It still doesn't know what a muscle is!
 
 There we go! You had to break a relatively simple task into very specific and low-level steps for a brain to understand. What we have done in this exercise is actually _program_. This is in essence what programming is all about; what separates the good programmers from the bad programmers: the ability to break things down into logical steps.
 
+As you program more, you will learn to understand how to do this better.
 
-
-
+You are probably raring to go. Let's actually learn about what Java is!
 

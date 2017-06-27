@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* [What is a computer?](what-is-a-computer.md)
 * [What is Java?](what-is-java.md)
 * [Compiler vs Interpreter](compiler-vs-interpreter.md)
 * [For real: what is Java?](for-real-what-is-java.md)
