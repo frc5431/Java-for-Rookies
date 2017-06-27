@@ -6,4 +6,5 @@
 * [For real: what is Java?](for-real-what-is-java.md)
 * [What about robots?](what-about-robots.md)
 * [Installing Java](installing-java.md)
+* [Our first program](our-first-program.md)
 
