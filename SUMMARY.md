@@ -4,4 +4,5 @@
 * [What is Java?](what-is-java.md)
 * [Compiler vs Interpreter](compiler-vs-interpreter.md)
 * [For real: what is Java?](for-real-what-is-java.md)
+* [What about robots?](what-about-robots.md)
 

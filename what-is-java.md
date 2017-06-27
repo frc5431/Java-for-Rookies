@@ -20,13 +20,13 @@ The reason we will be using Java is because it is easy for rookies to learn. It 
 
 What makes Java different from other languages is the key concept of _write once, run anywhere_. The idea is that any Java program you write can run on anything - from computers, cell phone apps, robots...
 
+![](https://static.spiceworks.com/shared/post/0014/6934/java.jpg)
+
 It's quite handy! You can just use one program for everything!
 
 ![](/assets/xkcd-java)
 
 The way Java does this is via something called an _interpreter. Other languages like C, C++, and FORTRAN use something called a compiler_. There is a fundamental difference between these 2 concepts which is very important to know.
-
-
 
 > Compilers? Interpreter? Object Oriented? C++? What are these words!!?!??!??!?!
 
