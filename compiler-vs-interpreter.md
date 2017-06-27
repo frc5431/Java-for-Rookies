@@ -16,36 +16,36 @@ public class HelloWorld {
 into this:
 
 ```asm
-.text                           # section declaration
+.text                           # section declaration
 
-			                          # we must export the entry point to the ELF linker or
+                                      # we must export the entry point to the ELF linker or
     .global _start              # loader. They conventionally recognize _start as their
-			                          # entry point. Use ld -e foo to override the default.
+                                      # entry point. Use ld -e foo to override the default.
 
 _start:
 
                                 # write our string to stdout
 
-	  movl    $len,%edx           # third argument: message length
-	  movl    $msg,%ecx           # second argument: pointer to message to write
-	  movl    $1,%ebx             # first argument: file handle (stdout)
-	  movl    $4,%eax             # system call number (sys_write)
-	  int     $0x80               # call kernel
+      movl    $len,%edx           # third argument: message length
+      movl    $msg,%ecx           # second argument: pointer to message to write
+      movl    $1,%ebx             # first argument: file handle (stdout)
+      movl    $4,%eax             # system call number (sys_write)
+      int     $0x80               # call kernel
 
                                 # and exit
 
-	  movl    $0,%ebx             # first argument: exit code
-	  movl    $1,%eax             # system call number (sys_exit)
-	  int     $0x80               # call kernel
+      movl    $0,%ebx             # first argument: exit code
+      movl    $1,%eax             # system call number (sys_exit)
+      int     $0x80               # call kernel
 
 .data                           # section declaration
 
 msg:
-	.ascii    "Hello, World!\n"   # our dear string
-	len = . - msg                 # length of our dear string
+    .ascii    "Hello, World!\n"   # our dear string
+    len = . - msg                 # length of our dear string
 ```
 
-What's the difference?
+> What's the difference?
 
 The second one \(look how ugly it is\) is called _assembly_. You have probably heard of this term. Assembly is what your computer understands to make things happen. Assembly is the closest thing a human can write in to how a computer actually works that isn't binary. Binary would be almost impossible for any human to code in!
 
@@ -69,7 +69,13 @@ That doesn't sound that bad until you realize that compilations of big programs 
 
 It does get very tedious. That's the problem with compilers - they can take a long time to compile and they have to be run separately for every platform.
 
-## 
+[Here is a nice video explaining compilers](https://youtu.be/o-xSgi9o5vk)
+
+## Move aside - interpreters are here!
+
+One day, in 1958, Steve Russel realized that he could make a program run code instead of compiling it. He promptly wrote the Lisp Interpreter, which will _interprets _a Lisp script and runs it without compiling. The idea is pretty simple - instead of compiling every program for every computer, you compile 1 program that can run other programs.
+
+The advantages for an interpreter is that it works anywhere - as long as you have the interpreter on your system, you can execute scripts. Examples of interpreted languages are Javascript, Lua, and Python. In order to run this scripts, you have to have the interpreter on your system. This is one of the downsides of interpreted languages - you must download the interpreter on every system you want to use it on. Also, interpreted languages are slightly slower than compiled languages because the interpret has to run your script very quickly. It doesn't have time to make optimizations like a compiler does.
 
 
 
