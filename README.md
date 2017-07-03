@@ -6,7 +6,7 @@ That's quite the ambitious goal! Team 5431 has the highest standards for our cod
 
 * At least one hole in the wall every season
 * Always 2 weeks late on the promised deadline
-* 1 very expensive item and 2 copies that is extensively experimented with only to be scrapped the day before Dallas regional, such as Kinect or a Jetson.
+* 1 very expensive item and 2 copies that is extensively experimented with only to be scrapped the day before Dallas regional, such as Kinect, NUC, LED's, or Jetson.
 * 5 repos with names such as "finalCompCode," "realCode," "finalCompCode2017ACTUAL." But the actual repo with the competition code is "PRAC-COMP-CODE-2017"
 * More humorous comments and puns in code than actual helpful documentation, such as _woaver_
 * Very specific and enforced standard
@@ -30,6 +30,4 @@ Some of the things that we expect from every individual programmer on our team:
 * Endure many cuts on sharp pieces of metal
 
 If you think you are up to the challenge, continue forward in this book!
-
-
 
