@@ -8,8 +8,6 @@ First, lets create a simple Java project:
 
 ![](/first-program/new-project.png)
 
-\(My Eclipse looks black and slightly different because I customized it. It should be the same menus though\)
-
 Call your project "HelloWorld" and click Finish
 
 ![](/first-program/project-name.png)
