@@ -10,19 +10,25 @@ This `.jar` file has special bytecode that needs to be run in a JVM, or Java Vir
 
 ![](https://docs.oracle.com/javase/tutorial/figures/getStarted/helloWorld.gif)
 
-All the end user needs to install is something called the Java Runtime Environment \(JRE.\) The JRE is a collection of required Java programs, such as the JVM, installer/updater, and required class libraries. Think of the JRE as a box and the JDK as the contents of the box.
+All the end user needs to install is something called the Java Runtime Environment \(JRE.\) The JRE is a collection of required Java programs, such as the JVM, installer/updater, and Java API. Think of the JRE as a box and the JDK as the contents of the box.
+
+The Java API is a collection of classes \(something we will learn about later\) to make programming in Java easier.
+
+![](https://docs.oracle.com/javase/tutorial/figures/getStarted/getStarted-jvm.gif)
 
 So many buzzwords! Here is an easy way to remember all of these new words:
 
-| Word | Meaning |
+| Term | Meaning |
 | :--- | :--- |
 | .java file | Plain text file which contains your Java code. |
 | .class file | A compiled .java file which contains bytecode. You can't run this file or write into it. The JDK compiles the .java into a class. |
-| .jar file | A combination of all of the .class files in your project, created by the JDK. The JRE on your computer creates a JVM to run your program |
+| .jar file | A combination of all of the .class files in your project, created by the JDK. This single file is interpreted by the JVM to actually run the program. |
 | JDK \(Java Development Environment\) | The compiler to turn your .java files into a singular .jar file containing Java bytecode |
 | Java bytecode | A special binary format that can be interpreted by the JRE on any platform. This is not assembly. |
 | JVM \(Java Virtual Machine\) | Interprets and runs Java bytecode, turning it into platform-specific instructions. |
 | JRE \(Java Runtime Environment\) | A package containing the JVM and other required packages for Java to run. This is what the user of your program. installs. |
+| Java API | Collection of tools and classes to make programming in Java easy and cross-platform |
+| Oracle Corporation | This is the company that owns and maintains Java. |
 
 There are multiple reasons that Java does it this way:
 

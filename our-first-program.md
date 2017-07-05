@@ -37,5 +37,7 @@ public class HelloWorld {
 
 Now click the big green run button to run this program.![](/first-program/big-green-button)If everything worked correctly, a new tab at the bottom called "Console" should have appeared and say the text `Hello, World`![](/first-program/console-hello-world)If your Eclipse doesn't look like this, you did something wrong. Try to look carefully and retrying some of the previous steps to get it to look like this. [This link](https://docs.oracle.com/javase/tutorial/getStarted/problems/index.html) has a couple of common problems found when compiling Java for the first time. If you need help, ask one of the coders on programming team. We are here to mentor you in case you need help!
 
+[Here is the official Java getting started tutorial.](https://docs.oracle.com/javase/tutorial/getStarted/index.html) It's really useful! It does a couple of minor things slightly differently than the way I do it, but in the end, it also results in a Hello World program. Check it out if you feel lost or just want to solidify your learning.
+
 You just did a bunch of things and you probably have no idea what is going on. We will go slowly and explain everything that just happened and what you just did.
 
