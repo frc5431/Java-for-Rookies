@@ -16,4 +16,5 @@
 * [Explanation of "Hello World"](explanation-of-hello-world.md)
 * [Variables](variables.md)
 * [Data Types](data-types.md)
+* [Operators](operators.md)
 

@@ -57,7 +57,7 @@ The values in between the `""` and the `''` are called literals.
 Literals
 ```
 
-A literal is basically a value that is hard written into the code. In our previous example, 
+A literal is basically a value that is hard written into the code. In our previous example,
 
 ```java
 int a = 2;
@@ -83,16 +83,16 @@ Additionally, a number prefixed with `0x` is a hexadecimal value \(something you
 
 ## Every primitive data type
 
-The data types we just went over are called _primitives._ They are data types built in to Java. We can create our own data type using _classes_, something we will go over soon. There are couple of other primitives not mentioned previously because they are a bit less important. Have a table with every primitive type:
+The data types we just went over are called _primitives._ They are data types built in to Java. We can create our own data type using _classes_, something we will go over soon. There are couple of other primitives not mentioned previously because they are a bit less important. You don't have to know every single small detail about every single data type. The following is a reference for the future.
 
 | Primitive Name | What it stores | Example\(s\) of a literal | Size in memory |
 | :--- | :--- | :--- | :--- |
 | int | A whole number \(no decimals\) from  -2,147,483,648 to. 2,147,483,647 | 42000000 or hexadecimal \(0x280DE80\) | 32 bits \(4 bytes\) |
-| short | A whole number \(no decimals\) from -32,768 to 32,767.  Basically a smaller int. |   | 1337 | 16 bits \(2 bytes\) |
+| short | A whole number from -36,768 to 32,767. Basically a smaller int. | 1337 | 16 bits \(2 bytes\) |
 | byte | A whole number \(no decimals\) from -128 to 127. Basically an even smaller int. | 42 or binary \(0b00101010\) | 8 bits \(1 byte\) |
 | long | A whole number \(no decimals\) from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807. A very huge int. Use this for big numbers. | 999999999999L or 999999999999l | 64 bits \(8 bytes\) |
-| float | A decimal number with a range of 3.40282347 x 10^38 to 1.40239846 x 10^-45. Has roughly 5-6 decimal places. Less precise than a double |   | 3.3f | 32 bits \(4 bytes\) |
-| double | A decimal number with a range of 1.7976931348623157 x 10^308 to 4.9406564584124654 x 10^-324. More precise than a float. Has roughly 15-16 decimal places. |   | 5.6 | 64 bits \(8 bytes\) |
+| float | A decimal number with a range of 3.40282347 x 10^38 to 1.40239846 x 10^-45. Has roughly 5-6 decimal places. Less precise than a double | 3.3f | 32 bits \(4 bytes\) |
+| double | A decimal number with a range of 1.7976931348623157 x 10^308 to 4.9406564584124654 x 10^-324. More precise than a float. Has roughly 15-16 decimal places. | 5.6 | 64 bits \(8 bytes\) |
 | boolean | Either true or false. Used in conditional statements. | true or false | 1 bit |
 | char | A single character of text. Otherwise equivalent to a short except it doesn't go into negatives \(0 - 65,535\) | 'a' or \u0041 | 16 bits \(2 bytes\) |
 | String | Collection of chars. Basically text. | "Hello, world!" | Variable length. Depends on length of text. |
@@ -105,8 +105,25 @@ int b = 0x2A;//42 in hexadecimal
 short c = 12;
 byte d = 21;
 byte e = 0b00010101;//21 in binary
-long f = 9999999999L;
+long f = 99999999999L;
+float g = 5.6f;
+double h = 3.1459;
+boolean i = true;
+boolean j = false;
+char k = 'a';
+char l = \u0041;//'a' as a unicode code point
+String m = "I am quite literally a literal!";
 ```
+
+Here are some references about data types if you need a bit more understanding:
+
+[http://cs.fit.edu/~ryan/java/language/java-data.html](/h ttp://cs.fit.edu/~ryan/java/language/java-data.html)
+
+[https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)
+
+### Exercises
+
+Feeling fearless? Try to create a variable of every data type using your literals and print it out to console! Try seeing what it prints.
 
 
 
