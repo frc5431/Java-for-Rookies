@@ -8,4 +8,7 @@
 * [What about robots?](what-about-robots.md)
 * [Installing Java](installing-java.md)
 * [Our first program](our-first-program.md)
+* [Explanation of "Hello World"](explanation-of-hello-world.md)
+* [Variables](variables.md)
+* [Data Types](data-types.md)
 

@@ -30,6 +30,8 @@ So many buzzwords! Here is an easy way to remember all of these new words:
 | Java API | Collection of tools and classes to make programming in Java easy and cross-platform |
 | Oracle Corporation | This is the company that owns and maintains Java. |
 
+[^1]
+
 There are multiple reasons that Java does it this way:
 
 * You only need to distribute one file to your users - the .jar
@@ -47,4 +49,6 @@ Speaking of versions, Java has a lot of them. The problem is that when you compi
 You have to keep the JRE updated so you can always run the most Java programs possible. This is one of the biggest gripes about Java.
 
 A lot of people also say that Java is significantly slower than other languages and has a lot of memory leaks. This may have been true in the past, but the modern version of Java is much more optimized and doesn't seem to have these problems.
+
+[^1]: Cliche teacher hint: it's organized in a table like that so you can make flashcards and study. Just saying...
 
