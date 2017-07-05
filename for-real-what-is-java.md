@@ -1,6 +1,30 @@
 # For real now: What is Java?
 
-Java is kind of a combination of both - it has both a compiler and an interpreter. The "compiler" is called the JDK, or the Java Developers Kit. However instead of compiling to machine code, it compiles to a special format called _Java Bytecode _in the form of a `.jar`** **file. This `.jar` file has special binary that needs to be interpreted by the JRE, or the Java Runtime Environment. There are multiple reasons that Java does it this way:
+Java is kind of a combination of both - it has both a compiler and an interpreter. The "compiler" is called the JDK, or the Java Developers Kit. However instead of compiling to machine code, it compiles to a special format called \_Java Bytecode \_in the form of a `.jar`** **file.
+
+Your code is written in a `.java` file. When compiled by the JDK, it becomes a `.class` file. You can't execute a `.class` file. It is simply bytecode for one file. Once all of the files are done being compiled, they are packaged together into a `.jar` which can be run.
+
+![](https://docs.oracle.com/javase/tutorial/figures/getStarted/getStarted-compiler.gif)
+
+This `.jar` file has special bytecode that needs to be run in a JVM, or Java Virtual Machine. The Java Virtual Machine is a special way to run the bytecode on any computer.
+
+![](https://docs.oracle.com/javase/tutorial/figures/getStarted/helloWorld.gif)
+
+All the end user needs to install is something called the Java Runtime Environment \(JRE.\) The JRE is a collection of required Java programs, such as the JVM, installer/updater, and required class libraries. Think of the JRE as a box and the JDK as the contents of the box.
+
+So many buzzwords! Here is an easy way to remember all of these new words:
+
+| Word | Meaning |
+| :--- | :--- |
+| .java file | Plain text file which contains your Java code. |
+| .class file | A compiled .java file which contains bytecode. You can't run this file or write into it. The JDK compiles the .java into a class. |
+| .jar file | A combination of all of the .class files in your project, created by the JDK. The JRE on your computer creates a JVM to run your program |
+| JDK \(Java Development Environment\) | The compiler to turn your .java files into a singular .jar file containing Java bytecode |
+| Java bytecode | A special binary format that can be interpreted by the JRE on any platform. This is not assembly. |
+| JVM \(Java Virtual Machine\) | Interprets and runs Java bytecode, turning it into platform-specific instructions. |
+| JRE \(Java Runtime Environment\) | A package containing the JVM and other required packages for Java to run. This is what the user of your program. installs. |
+
+There are multiple reasons that Java does it this way:
 
 * You only need to distribute one file to your users - the .jar
 * The program can be optimized much better
@@ -8,7 +32,7 @@ Java is kind of a combination of both - it has both a compiler and an interprete
 
 Of course, there are disadvantages, the biggest one being:
 
-* The end user _has _to have the matching version of the JRE
+* The end user \_has \_to have the matching version of the JRE
 
 Speaking of versions, Java has a lot of them. The problem is that when you compile something with JDK 8 it can't be run with JRE 7. That's why you always get these annoying popups:
 
