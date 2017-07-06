@@ -87,7 +87,7 @@ mdArray[4][2];
 
 ---
 
-Just like any other data type, there are also array literals. To create an array literal, you use the `{} `operator:
+Just like any other data type, there are also array literals. To create an array literal, you use the `{}`operator:
 
 ```java
 int[] literally = { 1, 2, 3, 4, 5 };//create an array of 5 elements
@@ -95,9 +95,31 @@ int[] literally = { 1, 2, 3, 4, 5 };//create an array of 5 elements
 
 The above code creates an array of 5 `int`'s and gives them values:
 
-```
-System.out.println();
+```java
+System.out.println("First element is " + literally[0]);
+System.out.println("Second element is " + literally[1]);
+System.out.println("Third element is " + literally[2]);
+System.out.println("Fourth element is " + literally[3]);
+System.out.println("Last element is " + literally[4]);
 ```
 
+This would print:
 
+```
+First element is 1
+Second element is 2
+Third element is 3
+Fourth element is 4
+Last element is 5
+```
+
+---
+
+Still feel a bit confused? Don't worry! Soon we will write a program to use all of these new concepts. For now, try your best to stay along.
+
+[Here](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html) and [here](https://www.tutorialspoint.com/java/java_arrays.htm) are some good guides to teach arrays.
+
+Practice makes perfect! Try making a couple of arrays yourself and experiment with them. Try an array of Strings! Try a multidimensional arrays! The cool thing about Eclipse is that it will tell you errors as you type your code - meaning you can easily find out what is correct and what is incorrect syntax.
+
+![](https://imgs.xkcd.com/comics/donald_knuth.png)
 

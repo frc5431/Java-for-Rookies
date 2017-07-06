@@ -84,7 +84,9 @@ public class HelloWorld {
 
 We are forgetting one thing!
 
-Java needs to know when a line ends. At the end of anything called a _statement_, you put a `;` \(semicolon.\) A statement is simply a line of code. You don't put semicolons after curly brackets \(`{` and `}`.\)
+Java needs to know when a line ends. At the end of anything called a _statement_, you put a `;` \(semicolon.\) A statement is simply a line of code. You don't put semicolons after _blocks_ \(`{` and `}`.\)
+
+[Here is a nice guide explaining what blocks and statements are.](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/expressions.html)
 
 In order for our code to work, you need to put a semicolon at the end of our lines of code, to do this:
 
