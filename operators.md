@@ -30,7 +30,7 @@ int laf = 26 % 10;//laf is 16 with modulo
 Quick note: Java does not follow order of operations. Java does the math from left to right. You can use parenthesis `()` to specify operations to be done first:
 
 ```java
-int math = (3 - 2) * 5;
+int math = 3 - (2 * 5);
 ```
 
 ## Assignment
@@ -79,7 +79,7 @@ Yep.
 
 It's pretty easy actually:
 
-```
+```java
 String impossible = "I don't understand how one could add ";
 String newString = impossible + " strings!";
 System.out.println(newString);//prints "I don't understand how one could add strings!"
@@ -87,11 +87,9 @@ System.out.println(newString);//prints "I don't understand how one could add str
 
 You can add anything to a `String` and it will gracefully be converted exactly as you want it:
 
-```
+```java
 String foo = "The answer is " + 42;//foo is "The answer is 42"
 ```
-
- 
 
 ---
 

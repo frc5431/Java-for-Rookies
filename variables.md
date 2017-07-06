@@ -1,6 +1,6 @@
 # Variables
 
-We want some action in Java! We want to do something! Printing stuff to console gets boring after a while. 
+We want some action in Java! We want to do something! Printing stuff to console gets boring after a while.
 
 Let's have some fun.
 
@@ -11,6 +11,8 @@ _Math_
 Lets make our program print the answer to `2 + 2` to console.
 
 Now, computers are great at math. In fact, computers know algebra!
+
+![](https://imgs.xkcd.com/comics/applied_math.png)
 
 If you are reading this tutorial, you are most likely in high school and have passed pre-algebra. If you haven't, I am concerned and you should totally understand pre-algebra before programming.
 
@@ -67,7 +69,7 @@ Putting 2 and 2 together \(get what I did there?\) leads us to this statement:
 int a = 2
 ```
 
-That line creates a new variable that is an integer, called `a`, and has the value of `2`. 
+That line creates a new variable that is an integer, called `a`, and has the value of `2`.
 
 Lets do the same for `b` and put it in our `main` function
 
@@ -135,4 +137,6 @@ public class HelloWorld {
 ```
 
 \(remember to always put a semicolon at the end of every line of code!\)![](/variables/console-output)[Here is the official Java tutorial explaining variables](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/variables.html). Look at it if you feel a bit confused!
+
+![](https://imgs.xkcd.com/comics/purity.png)
 

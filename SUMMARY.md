@@ -17,4 +17,5 @@
 * [Variables](variables.md)
 * [Data Types](data-types.md)
 * [Operators](operators.md)
+* [Arrays](arrays.md)
 

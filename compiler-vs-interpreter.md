@@ -73,9 +73,11 @@ It does get very tedious. That's the problem with compilers - they can take a lo
 
 ## Move aside - interpreters are here!
 
-One day, in 1958, Steve Russel realized that he could make a program run code instead of compiling it. He promptly wrote the Lisp Interpreter, which will _interprets _a Lisp script and runs it without compiling. The idea is pretty simple - instead of compiling every program for every computer, you compile 1 program that can run other programs.
+One day, in 1958, Steve Russel realized that he could make a program run code instead of compiling it. He promptly wrote the Lisp Interpreter, which will \_interprets \_a Lisp script and runs it without compiling.
+
+![](https://imgs.xkcd.com/comics/lisp_cycles.png)
+
+The idea is pretty simple - instead of compiling every program for every computer, you compile 1 program that can run other programs.
 
 The advantages for an interpreter is that it works anywhere - as long as you have the interpreter on your system, you can execute scripts. Examples of interpreted languages are Javascript, Lua, and Python. In order to run this scripts, you have to have the interpreter on your system. This is one of the downsides of interpreted languages - you must download the interpreter on every system you want to use it on. Also, interpreted languages are slightly slower than compiled languages because the interpret has to run your script very quickly. It doesn't have time to make optimizations like a compiler does.
-
-
 
