@@ -1,8 +1,0 @@
-{
-	root: "./",
-	direction: "ltr",
-	language: "en",
-	author: "5431 Programming Team",
-	title: "Java for Rookies",
-	description: "A guide on how to program Java for FRC rookies"
-}

@@ -16,14 +16,16 @@
 ## Basic Java Concepts
 
 * [Our first program](our-first-program.md)
-* [Explanation of "Hello World"](explanation-of-hello-world.md)
+  * [Explanation of "Hello World"](explanation-of-hello-world.md)
 * [Variables](variables.md)
-    * [Data Types](data-types.md)
+  * [Data Types](data-types.md)
     * [Casts](casts.md)
-    * [Operators](operators.md)
-* [Arrays](arrays.md)
+  * [Operators](operators.md)
+  * [Arrays](arrays.md)
 
 --
 
 * [5431 Github](https://github.com/frc5431)
+
+
 
