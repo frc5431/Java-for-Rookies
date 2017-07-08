@@ -14,19 +14,7 @@ Java Runtime Environment. Collection of packages including the Java API and the 
 
 Collection of libraries and classes to allow Java to run anywhere and offer maximum flexibility for the developer.
 
-## Cast
+## 
 
-Changes the type of a variable.
 
-Syntax:
-```java
-(type) variable
-```
 
-## int
-
-Data type that represents an integer, or whole number. No decimals.
-
-The range an `int` can store is from -2,147,483,648 to. 2,147,483,647.
-
-An `int` is 32 bits, or 4 bytes.

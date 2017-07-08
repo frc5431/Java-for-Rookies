@@ -1,7 +1,5 @@
 # Summary
 
---
-
 * [Introduction](README.md)
 
 ## Introduction to programming
@@ -22,10 +20,10 @@
     * [Casts](casts.md)
   * [Operators](operators.md)
   * [Arrays](arrays.md)
+* [Control Structures](control-structures.md)
+  * [If-statement](control-structures/if-statement.md)
 
---
+---
 
 * [5431 Github](https://github.com/frc5431)
-
-
 

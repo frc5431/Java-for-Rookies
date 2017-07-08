@@ -9,7 +9,7 @@ Arrays are amazing ways for storing large amount of data. Arrays store a fixed a
 Imagine that arrays are ways to store a collection of data. The syntax looks like this:
 
 ```java
-dataType[] arrayName;//preferred way
+<data type>[] arrayName;//preferred way
 
 dataType arrayName[];//works but not preferred
 ```
