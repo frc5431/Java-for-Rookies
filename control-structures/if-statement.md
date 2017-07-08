@@ -1,6 +1,6 @@
 # If statements
 
-The _if statement_ is the most basic control structure. It allows you to run code only _if _something is true.
+The _if statement_ is the most basic control structure. It allows you to run code only \_if \_something is true.
 
 ```java
 if(<condition>){
@@ -33,7 +33,7 @@ The true power of the `if` statements is with a _logical operator _\([remember w
 
 Unlike mathematical operators, which operate on numerical types, and assignment operators, which operate on any variables, a logical operator operates on `boolean` values.
 
-The simplest logical operator is the `==` operator. It compares 2 values and becomes `true` if they are equal, `false `otherwise:
+The simplest logical operator is the `==` operator. It compares 2 values and becomes `true` if they are equal, `false`otherwise:
 
 ```java
 <value1> == <value2> // true if <value1> and <value2> are equal
