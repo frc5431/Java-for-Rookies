@@ -1,8 +1,11 @@
 # Summary
 
-## Introduction
+--
 
 * [Introduction](README.md)
+
+## Introduction to programming
+
 * [What is a computer?](what-is-a-computer.md)
 * [What is Java?](what-is-java.md)
 * [Compiler vs Interpreter](compiler-vs-interpreter.md)
@@ -15,8 +18,12 @@
 * [Our first program](our-first-program.md)
 * [Explanation of "Hello World"](explanation-of-hello-world.md)
 * [Variables](variables.md)
-* [Data Types](data-types.md)
-* [Casts](casts.md)
-* [Operators](operators.md)
+    * [Data Types](data-types.md)
+    * [Casts](casts.md)
+    * [Operators](operators.md)
 * [Arrays](arrays.md)
+
+--
+
+* [5431 Github](https://github.com/frc5431)
 
