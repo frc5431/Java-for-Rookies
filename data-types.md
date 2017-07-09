@@ -44,7 +44,7 @@ char bam = 'hello!';//WOAH! you can't do that! char's are only single characters
 
 [If you remember back from when you wrote Hello, World](/our-first-program.md) you may remember seeing some double quotes. A double quote represents a `String` which is more than one character.
 
-```
+```java
 String foo = "I am more than one character!";
 
 String bar = '!';//can't do this, single quotes are for char, double quotes are for String
@@ -124,6 +124,4 @@ Here are some references about data types if you need a bit more understanding:
 ### Exercises
 
 Feeling fearless? Try to create a variable of every data type using your literals and print it out to console! Try seeing what it prints.
-
-
 
