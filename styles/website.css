@@ -11,7 +11,10 @@
 
 .book-summary{
     background: #828282;
-    color: #00AEED
+}
+
+.book-summary ul.summary li a, .book-summary ul.summary li span{
+    color: #00AEED;
 }
 
 .book-summary .header{
@@ -19,5 +22,11 @@
 }
 
 h1, h2, h3, h4, h5, h6{
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
+}
+
+.book-summary ul.summary li.header{
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-size: 20px;
 }
