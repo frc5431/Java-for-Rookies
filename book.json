@@ -1,6 +1,7 @@
 {
     "root": "./",
     "title": "Java For Rookies",
+    "gitbook": "3.2.2",
     "plugins": ["parts-autoindex", "excercises", "-highlight", "sunlight-highlighter", "html-minifier"],
     "pluginsConfig": {
         "parts-autoindex": {
