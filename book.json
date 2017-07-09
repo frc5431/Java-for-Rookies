@@ -1,7 +1,7 @@
 {
     "root": "./",
     "title": "Java For Rookies",
-    "plugins":["parts-autoindex", "excercises", "-highlight", "sunlight-highlighter", "html-minifier"],
+    "plugins": ["parts-autoindex", "excercises", "-highlight", "sunlight-highlighter", "html-minifier"],
     "pluginsConfig": {
         "parts-autoindex": {
             "level": 1,
