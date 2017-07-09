@@ -33,28 +33,6 @@ Quick note: Java does not follow order of operations. Java does the math from le
 int math = 3 - (2 * 5);
 ```
 
-{% exercise %}
-Define a variable `x` equal to 10.
-
-{% initial %}
-var x =
-
-{% solution %}
-var x = 10;
-
-{% validation %}
-assert(x == 10);
-
-{% context %}
-// This is context code available everywhere
-// The user will be able to evaluate `exposedVar`
-var exposedVar = 3;
-// ... or call `exposedFunction`
-function exposedFunction {
-    return 3;
-}
-{% endexercise %}
-
 ## Assignment
 
 You have used this operator a lot before: the `=` operator. This operator just assigns a value to something. Pretty simple.
