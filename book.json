@@ -2,7 +2,7 @@
     "root": "",
     "title": "Java For Rookies",
     "gitbook": "3.2.2",
-    "plugins": ["exercises", "-highlight", "sunlight-highlighter", "html-minifier", "custom-favicon"],
+    "plugins": ["exercises", "-highlight", "sunlight-highlighter", "custom-favicon"],
     "pluginsConfig": {
         "parts-autoindex": {
             "level": "1",
