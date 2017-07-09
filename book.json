@@ -2,7 +2,7 @@
     "root": "",
     "title": "Java For Rookies",
     "gitbook": "3.2.2",
-    "plugins": ["parts-autoindex", "excercises", "-highlight", "sunlight-highlighter", "html-minifier", "bring-yer-favicon"],
+    "plugins": ["exercises", "-highlight", "sunlight-highlighter", "custom-favicon"],
     "pluginsConfig": {
         "parts-autoindex": {
             "level": "1",
@@ -12,8 +12,6 @@
             "theme": "dark",
             "lineNumber": true
         },
-        "bring-yer-favicon": {
-            "favicon.ico": "assets/favicon.ico"
-        }
+        "favicon": "assets/favicon.ico"
     }
 }
