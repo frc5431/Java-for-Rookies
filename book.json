@@ -12,7 +12,7 @@
             "theme": "dark",
             "lineNumber": true
         },
-        "bring-yer-favicon": {
+        "favicons": {
             "favicon.ico": "assets/favicon.ico"
         }
     }
