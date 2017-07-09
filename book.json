@@ -12,8 +12,6 @@
             "theme": "dark",
             "lineNumber": true
         },
-        "favicon": {
-            "favicon.ico": "assets/favicon.ico"
-        }
+        "favicon": "assets/favicon.ico"
     }
 }
