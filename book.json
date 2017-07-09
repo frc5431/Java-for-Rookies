@@ -1,11 +1,15 @@
 {
-    root: "./",
-    title: "Java For Rookies",
-    plugins:["parts-autoindex", "excercises"],
-    pluginsConfig: {
-        parts-autoindex: {
-            level: 1,
-            trim: 0
+    "root": "./",
+    "title": "Java For Rookies",
+    "plugins":["parts-autoindex", "excercises", "-highlight", "sunlight-highlighter"],
+    "pluginsConfig": {
+        "parts-autoindex": {
+            "level": 1,
+            "trim": 0
+        },
+        "sunlight-highlighter": {
+            "theme": "dark",
+            "lineNumber": true
         }
     }
 }
