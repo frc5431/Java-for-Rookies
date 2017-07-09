@@ -4,8 +4,8 @@
     "plugins": ["parts-autoindex", "excercises", "-highlight", "sunlight-highlighter", "html-minifier"],
     "pluginsConfig": {
         "parts-autoindex": {
-            "level": 1,
-            "trim": 0
+            "level": "1",
+            "trim": "0"
         },
         "sunlight-highlighter": {
             "theme": "dark",
