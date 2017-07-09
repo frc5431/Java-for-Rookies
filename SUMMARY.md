@@ -15,6 +15,7 @@
 
 * [Our first program](our-first-program.md)
   * [Explanation of "Hello World"](explanation-of-hello-world.md)
+* [Classes](classes.md)
 * [Variables](variables.md)
   * [Data Types](data-types.md)
     * [Casts](casts.md)
