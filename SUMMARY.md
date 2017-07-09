@@ -19,9 +19,8 @@
 * [Classes](classes.md)
 * [Data Types](data-types.md)
   * [Casts](casts.md)
-
-  * [Arrays](arrays.md)
-  * [Operators](operators.md)
+* [Operators](operators.md)
+* [Arrays](arrays.md)
 * [Control Structures](control-structures.md)
   * [If-statement](control-structures/if-statement.md)
 
