@@ -15,16 +15,19 @@
 
 * [Our first program](our-first-program.md)
   * [Explanation of "Hello World"](explanation-of-hello-world.md)
-* [Classes](classes.md)
 * [Variables](variables.md)
-  * [Data Types](data-types.md)
-    * [Casts](casts.md)
-  * [Operators](operators.md)
+* [Classes](classes.md)
+* [Data Types](data-types.md)
+  * [Casts](casts.md)
+
   * [Arrays](arrays.md)
+  * [Operators](operators.md)
 * [Control Structures](control-structures.md)
   * [If-statement](control-structures/if-statement.md)
 
 ---
 
 * [Important Links](important-links.md)
+
+
 
