@@ -12,7 +12,7 @@
             "theme": "dark",
             "lineNumber": true
         },
-        "favicons": {
+        "favicon": {
             "favicon.ico": "assets/favicon.ico"
         }
     }
