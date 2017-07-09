@@ -12,7 +12,10 @@
             "theme": "dark",
             "lineNumber": true
         },
-        "favicon": "assets/favicon.ico"
+        "favicon": "assets/favicon.ico",
+        "theme-default": {
+            "show-level": true
+        }
     },
     "styles": {
         "website": "styles/website.css"
