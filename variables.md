@@ -44,7 +44,7 @@ First, we need to create our variables, `a` and `b`.
 Lets start with `a` first. We want the computer to create a new variable called `a` and give it the value of `2`. Easy enough, right?
 
 ```java
-a = 2
+a = 2;
 ```
 
 Is probably what you would type in your `main` function. That is very close to the actual answer.
@@ -66,7 +66,7 @@ From what we have talked about, the `type` of our variable is `int`, the `name` 
 Putting 2 and 2 together \(get what I did there?\) leads us to this statement:
 
 ```java
-int a = 2
+int a = 2;
 ```
 
 That line creates a new variable that is an integer, called `a`, and has the value of `2`.
@@ -76,28 +76,13 @@ Lets do the same for `b` and put it in our `main` function
 ```java
 public class HelloWorld {
     public static void main(String[] args) {
-        int a = 2
-        int b = 3
-    }
-}
-```
-
-We are forgetting one thing!
-
-Java needs to know when a line ends. At the end of anything called a _statement_, you put a `;` \(semicolon.\) A statement is simply a line of code. You don't put semicolons after _blocks_ \(`{` and `}`.\)
-
-[Here is a nice guide explaining what blocks and statements are.](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/expressions.html)
-
-In order for our code to work, you need to put a semicolon at the end of our lines of code, to do this:
-
-```java
-public class HelloWorld {
-    public static void main(String[] args) {
         int a = 2;
         int b = 3;
     }
 }
 ```
+
+Remember [last chapter](/basic-syntax.md) we mentioned the three types of statements: expression, declaration, and control flow statements? The above are 2 examples of declaration statements. A declaration statement declares a variable. Remember that all statements end in semicolons, like shown above.
 
 Now if you press the Run button...
 
@@ -123,7 +108,7 @@ public class HelloWorld {
 }
 ```
 
-It is that easy! Computers are best at doing math, so obviously it would be built in.
+It is that easy! That is an example of an _expression._
 
 To make sure our program works, let's print the value of `c` to console. It should print `5`.
 
@@ -138,7 +123,7 @@ public class HelloWorld {
 }
 ```
 
-\(remember to always put a semicolon at the end of every line of code!\)![](/variables/console-output)[Here is the official Java tutorial explaining variables](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/variables.html). Look at it if you feel a bit confused!
+\(remember to always put a semicolon at the end of every statement!\)![](/variables/console-output)[Here is the official Java tutorial explaining variables](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/variables.html). Look at it if you feel a bit confused!
 
 ![](https://imgs.xkcd.com/comics/purity.png)
 

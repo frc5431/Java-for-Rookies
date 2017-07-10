@@ -35,7 +35,7 @@ public static void main(String[] args)
 
 An explanation of what all of that means will come later. For now, just remember that the `main` function is where your program starts.
 
-## Single line comment
+## Single line comment {#comments}
 
 This is called a single line comment. Comments are ignored by the JDK and provide no actual functionality. They only exist to write notes to help yourself or other programmers understand the code. There are 3 forms of comments:
 
