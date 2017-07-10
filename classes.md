@@ -4,7 +4,7 @@ To start this chapter, delete the code in your `main` function. Your Eclipse sho
 
 ![](/classes/create-new-class.png)
 
-You should rememebr this step from when we wrote our Hello World program. Give your class a name of `Bicycle` and click Finish.
+You should remember this step from when we wrote our Hello World program. Give your class a name of `Bicycle` and click Finish.
 
 You should now have 2 files under `(default package)`: `HelloWorld.java` and `Bicycle.java`. Packages have an importance which we will go over later.
 
@@ -29,5 +29,5 @@ The `Bicycle` class is `public`. We will go over what that means later.
 
 We can start adding fields and methods. Remember [last chapter ](//objects.md)we talked about how fields represent an object's state while methods represent it's behaviors.
 
-You put fields and methods in between the curly brackets `{}` after the word `Bicycle`. 
+You put fields and methods in between the curly brackets `{}` after the word `Bicycle`.
 
