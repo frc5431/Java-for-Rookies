@@ -15,6 +15,7 @@
 
 * [Our first program](our-first-program.md)
   * [Explanation of "Hello World"](explanation-of-hello-world.md)
+* [Basic Syntax](basic-syntax.md)
 * [Variables](variables.md)
 * [Classes](classes.md)
 * [Data Types](data-types.md)
@@ -27,6 +28,4 @@
 ---
 
 * [Important Links](important-links.md)
-
-
 
