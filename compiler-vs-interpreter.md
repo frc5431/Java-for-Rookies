@@ -15,7 +15,7 @@ public class HelloWorld {
 
 into this:
 
-```6502asm
+```nasm
 .text                           # section declaration
 
                                       # we must export the entry point to the ELF linker or

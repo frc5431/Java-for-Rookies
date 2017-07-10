@@ -2,15 +2,11 @@
     "root": "",
     "title": "Java For Rookies",
     "gitbook": "3.2.2",
-    "plugins": ["-highlight", "mathjax", "sunlight-highlighter", "custom-favicon"],
+    "plugins": ["-highlight", "mathjax", "prism", "custom-favicon"],
     "pluginsConfig": {
         "parts-autoindex": {
             "level": "1",
             "trim": "0"
-        },
-        "sunlight-highlighter": {
-            "theme": "light",
-            "lineNumber": true
         },
         "favicon": "assets/favicon.ico",
         "theme-default": {
