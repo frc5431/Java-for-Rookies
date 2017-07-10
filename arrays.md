@@ -26,7 +26,7 @@ In order to properly create an array, you need give it a length. Arrays store a 
 = new dataType[size];
 ```
 
-To create arrays, you use a special new keyword - `new`. Making `foo` have a size of `10` would look like this:
+Just like you create a `class` with `new`, you also make arrays with it. Making `foo` have a size of `10` would look like this:
 
 ```java
 foo = new int[10];
