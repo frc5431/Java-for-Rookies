@@ -1,14 +1,14 @@
 # Data Types
 
-Last chapter we learned about cool things called variables and how they all have data types. We learned about the `int` and how it represents an integer.
+You already know that every variable has a data type, and how classes can be used as variables. Java features a couple of built-in data types, called _primitives._ Primitives are not classes, but they can be used as data types.
 
-Every data type has strict rules surrounding how they can be used. For example, an `int` can only be a whole number. The following is not allowed:
+Every primitive has strict rules surrounding how they can be used. For example, an `int` can only be a whole number. The following is not allowed:
 
 ```java
 int foo = 3.3;//oops! 3.3 is a decimal, not a whole number!
 ```
 
-In order to use decimals, there are 2 data types: `float` and `double`. Both allow decimals. A `double` is a decimal that is 64 bits \(8 bytes\) while a `float` is 32 bits \(4 bytes.\) Obviously, the more bits a number has, the more it can store. Roughly, a `float` can store about 6-7 numbers after the decimal point while `double` can store 15-16. Additionally, a `double` is more precise doing math. Just like humans, computers round when they are dealing with large decimal numbers, so the more numbers after the decimal point, the less rounding that happens.
+In order to use decimals, there are 2 primitives: `float` and `double`. Both allow decimals. A `double` is a decimal that is 64 bits \(8 bytes\) while a `float` is 32 bits \(4 bytes.\) Obviously, the more bits a number has, the more it can store. Roughly, a `float` can store about 6-7 numbers after the decimal point while `double` can store 15-16. Additionally, a `double` is more precise doing math. Just like humans, computers round when they are dealing with large decimal numbers, so the more numbers after the decimal point, the less rounding that happens.
 
 ![](https://imgs.xkcd.com/comics/e_to_the_pi_minus_pi.png)
 
@@ -31,7 +31,7 @@ Why would you want to use a `boolean`? That will be explained later, young padow
 
 ---
 
-There is another built in data type that isn't technically a number, and that is the `char`. A `char` stands for character and represents a single character of text. To represent a `char`, you put `'` \(single quote\) around a character, as so:
+There is another primitive that isn't technically a number, and that is the `char`. A `char` stands for character and represents a single character of text. To represent a `char`, you put `'` \(single quote\) around a character, as so:
 
 ```java
 //examples of chars
@@ -53,9 +53,9 @@ char baz = "I am so long!";//can't do this either, double quotes are for string
 
 The values in between the `""` and the `''` are called literals.
 
-```
-Literals
-```
+Notice that the other primitives are lowercase while the `String` is uppercase. This is because the `String` is actually a class, not a primitive! It is a special class though, because it works similarly to a primitive. The `String` class actually has methods you can use, but that's not in the scope of this book. You are learning about robots, not `String`'s!
+
+## Literals {#literals}
 
 A literal is basically a value that is hard written into the code. In our previous example,
 
