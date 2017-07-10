@@ -24,7 +24,7 @@ if(variable == 5){
 
 There will be pages about each statement in detail later on. For now, just remember that every type of statement has to end in a semicolon `;`.
 
-## Expressions
+## Expressions {#expressions}
 
 Just line in math, an expression is an operation that has a _left_ and a _right_ value that evaluates to a single value.
 

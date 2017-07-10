@@ -1,6 +1,6 @@
 # Operators
 
-Data types and variables are cool and all but we need to actually do something with them! Luckily for us, Java has a bunch of operators, or symbols that can perform operations on variables. Name is pretty self explanatory, huh.
+In one of the earlier chapters I briefly mentioned expressions.
 
 ## Math
 
@@ -94,8 +94,6 @@ String foo = "The answer is " + 42;//foo is "The answer is 42"
 ---
 
 [Here](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/operators.html) is the page with the official beginner's guide reference to operators. It defines a bunch of operators that you haven't learned yet - we will get to those as time goes on.
-
-
 
 ### Exercises
 
