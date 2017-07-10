@@ -48,5 +48,9 @@ Other than casting numerical types, you can cast anything to a `String`. That is
 
 ---
 
+You can also cast classes, but that involves inheritance and polymorphism, something you haven't learned yet. When the time for polymorphism arrives, you will learn about casting classes.
+
+---
+
 [Here](https://docs.oracle.com/javase/specs/jls/se7/html/jls-5.html), [here](https://stackoverflow.com/questions/5289393/casting-variables-in-java), [here](https://howtoprogramwithjava.com/java-cast/), and [here](https://stackoverflow.com/questions/3001836/how-does-java-handle-integer-underflows-and-overflows-and-how-would-you-check-fo) are some great resources to read up more on casting.
 
