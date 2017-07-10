@@ -1,10 +1,12 @@
 # Operators
 
-In one of the earlier chapters I briefly mentioned expressions.
+In one of the [earlier chapters](/basic-syntax.md) I briefly mentioned expressions. I said that expressions involve a left and right value. Now we will expand on them!
+
+Expressions consist of a left and right value plus an operator. An operator is simply a symbol that operates on 2 values. For example, in the expression `2 + 3`, the left value is `2`, the right value is `3`, and the operator is `+`. You have used a couple of operators already, like `+` and `=`.
 
 ## Math
 
-Numerical data types have the obvious mathematical operators: `+`, `-`, `*`, `/` for addition, subtraction, multiplication, and division respectively.
+Numerical primitives have the obvious mathematical operators: `+`, `-`, `*`, `/` for addition, subtraction, multiplication, and division respectively.
 
 Note that a `double` plus a `double` equals a `double`, obviously. All of the operators result in the same type afterwards. Except for division. If you divide on whole numbers, aka non-decimal types, Java will automatically round down for you:
 
@@ -44,12 +46,14 @@ int foo = 3;
 foo = 5;//foo is now 5. didn't need to say its type - i've already created it!
 ```
 
-In fact, you don't even need to give it a type when it's created:
+However, when you are using primitives, you don't have to give it a value when you declare it! It will default to 0:
 
 ```java
 int bar;//when you don't give it a value, it is 0 by default.
 bar = bar + 1;//bar was 0, now it is 1.
 ```
+
+This only works with primitives. With classes, you have to give them a value - usually with `new`.
 
 You can also combine assignment with some math:
 
@@ -68,8 +72,6 @@ Even cooler:
 ```java
 bar++;//this adds 1 to bar.
 ```
-
-On an slightly unrelated noted, the reason there is a language called C++ is because it is one more than C. Get it? Because the `++` operator adds one!
 
 ## String operations
 
