@@ -9,7 +9,7 @@
             "trim": "0"
         },
         "sunlight-highlighter": {
-            "theme": "dark",
+            "theme": "light",
             "lineNumber": true
         },
         "favicon": "assets/favicon.ico",
