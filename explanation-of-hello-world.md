@@ -56,9 +56,7 @@ Think of a comment as just that - it is a small note written by a human to expla
 
 ## Print statement
 
-This is where the magic happens. Remember we briefly talked about functions? `System.out.println` is a function. Functions allow you to run other code. In this case, the `System.out.println` function takes in input and puts it in your console window. The action of \_printing \_means to put something onto the console.![](/first-program-explanation/console.png)Anything you put in between the parenthesis will be put in your Eclipse console tab. In fact, lets experiment! Try replacing `"Hello, World"` with `4.2` and watch what happens.![](/first-program-explanation/changing-println)Now `4.2` was printed to console instead!
-
-![](https://www.commitstrip.com/wp-content/uploads/2016/12/Strip-Lignes-de-commande-english650-final-2.jpg)
+This is where the magic happens. Remember we briefly talked about functions? `System.out.println` is a function. Functions allow you to run other code. In this case, the `System.out.println` function takes in input and puts it in your console window. The action of \_printing \_means to put something onto the console.![](/first-program-explanation/console.png)Anything you put in between the parenthesis will be put in your Eclipse console tab. In fact, lets experiment! Try replacing `"Hello, World"` with `4.2` and watch what happens.![](/first-program-explanation/changing-println)Now `4.2` was printed to console instead!![](https://i.redd.it/zbqqkmy3kyqy.png)
 
 Try experimenting with this. Try multiple println statements even!
 

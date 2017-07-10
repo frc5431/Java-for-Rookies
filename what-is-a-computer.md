@@ -50,3 +50,5 @@ As you program more, you will learn to understand how to do this better.
 
 You are probably raring to go. Let's actually learn about what Java is!
 
+![](https://i.redd.it/o33ryb4zfc6z.jpg)
+
