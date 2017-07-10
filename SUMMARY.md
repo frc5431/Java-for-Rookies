@@ -17,6 +17,7 @@
   * [Explanation of "Hello World"](explanation-of-hello-world.md)
 * [Basic Syntax](basic-syntax.md)
 * [Variables](variables.md)
+* [Objects](/objects.md)
 * [Classes](classes.md)
 * [Data Types](data-types.md)
   * [Casts](casts.md)

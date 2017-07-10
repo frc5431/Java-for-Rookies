@@ -51,3 +51,5 @@ Always remember to put a closing curly bracket `}` and semicolons `;`. A missing
 
 ![](https://i.redd.it/gpgc6u4cglyy.jpg)
 
+If you want a little more reading to understand, [here is the official guide explaining this topic.](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/expressions.html)
+
